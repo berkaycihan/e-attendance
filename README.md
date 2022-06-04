@@ -12,7 +12,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Clone the repo
 2. `$ cd Admin-eCommerce-ReactJS
 3. Run `$ yarn` or `npm install`
-4. Run locally `$ yarn start` or `npm start`
+4. Run 'npm install reactstrap' and 'npm install 
+5. Run locally `$ yarn start` or `npm start`
 
 
 ## Available Scripts
