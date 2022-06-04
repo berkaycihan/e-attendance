@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - username : superuser
 - password : 123
 
-student passwords: 123
-teacher passwords: 123
-![caps1](https://user-images.githubusercontent.com/39379330/171993749-e611a7c2-6cd3-46a0-8828-97decff0b7d8.gif)
 
+![caps1](https://user-images.githubusercontent.com/39379330/171993749-e611a7c2-6cd3-46a0-8828-97decff0b7d8.gif)
+- student passwords: 123
+- teacher passwords: 123
 
 ## Setup
 
