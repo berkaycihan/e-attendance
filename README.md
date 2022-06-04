@@ -1,7 +1,7 @@
 # Admin e-Attendance ReactJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-#### Live Preview : https://admin-ecommerce.herokuapp.com/
+#### Live Preview : 
 - username : superuser
 - password : 123
 
