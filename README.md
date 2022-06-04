@@ -5,6 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - username : superuser
 - password : 123
 
+![caps1](https://user-images.githubusercontent.com/39379330/171993749-e611a7c2-6cd3-46a0-8828-97decff0b7d8.gif)
+
 
 ## Admin Features (Fitur - Fitur Admin)
 - Admin can add, edit, and delete product (Admin bisa menambahahkan,Mengedit dan Menghapus Produk)
