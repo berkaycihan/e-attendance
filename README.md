@@ -1,33 +1,10 @@
 # Admin e-Attendance ReactJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-#### Live Preview : 
 - username : superuser
 - password : 123
 
 ![caps1](https://user-images.githubusercontent.com/39379330/171993749-e611a7c2-6cd3-46a0-8828-97decff0b7d8.gif)
-
-
-## Admin Features (Fitur - Fitur Admin)
-- Admin can add, edit, and delete product (Admin bisa menambahahkan,Mengedit dan Menghapus Produk)
-- Admin can add, edit, and delete category (Admin bisa menambahahkan,Mengedit dan Menghapus Kategori)
-- Admin can add, edit, and delete subcategory (Admin bisa menambahahkan,Mengedit dan Menghapus Sub Kategori)
-- Admin can view list customers (Admin dapat melihat semua Kustomer)
-- Admin can view list products (Admin dapat melihat semua Produk)
-- Admin can view list and confirm new order (Admin dapat melihat list dan meneriman konfirmasi order)
-- Admin can view list order in shipping (Admin dapat melihat semua order di dalam pembelian)
-
-## Featured Tech
-- PWA - Progressive Web Application
-- Add to home screen
-- Offline support. Thanks to service workers.
-- Lazy Loading Image
-- Responsive Web
-- State Management using Redux
-- Utility Library using Lodash
-- XMLHttpRequest using axios
-- Rich Text Editor using React-Quill
-- CSS preprocessor using Sass
 
 
 ## Setup
