@@ -3,12 +3,12 @@ import React, { useState, useContext } from "react";
 //import ReactDOM from "react-dom";
 import "./Login.css";
 import { UserContext } from "./context";
-import Ogrenci from "./components/Ogrenci";
-import Ogrenci2 from "./components/Ogrenci2";
+import Ogrenciler from "./components/Ogrenciler";
+import Ogrencilerim from "./components/Ogrencilerim";
 import Ogretmen from "./components/Ogretmen";
-import Ders2 from "./components/Ders2";
-import Ders from "./components/Ders";
-import Student from "./components/Student";
+import Derslerim from "./components/Derslerim";
+import Dersler from "./components/Dersler";
+import Ogrenci from "./components/Ogrenci";
 import Navbar from "./Navbar";
 
 let loggedin1;
@@ -156,12 +156,12 @@ function Login() {
                   title="Öğretim Görevlileri"
                   loggedUserName={loggedin1}
                 />
-                <Ders
+                <Dersler
                   title="Dersler"
                   loggedUserName={loggedin1}
                   adminDisable={true}
                 />
-                <Ogrenci
+                <Ogrenciler
                   title="Öğrenciler"
                   loggedUserName={loggedin1}
                   adminDisable={true}
@@ -176,13 +176,13 @@ function Login() {
                   exit1={true}
                   onLogOut={logOut}
                 />
-                <Ders2
+                <Derslerim
                   title="Derslerim"
                   loggedUserName={loggedin1}
                   isVisible={true}
                   adminDisable={false}
                 />
-                <Ogrenci2
+                <Ogrencilerim
                   title="Yoklama"
                   loggedUserName={loggedin1}
                   adminDisable={false}
@@ -197,7 +197,7 @@ function Login() {
                   exit1={true}
                   onLogOut={logOut}
                 />
-                <Student loggedUserName={loggedin1} />
+                <Ogrenci loggedUserName={loggedin1} />
               </div>
             );
           } else {
