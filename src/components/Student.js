@@ -5,6 +5,10 @@ import "../App.css";
 // import Ders from './components/Ders';
 
 class Student extends Component {
+  state = {
+    isVisible: false,
+  };
+
   onSubmit1 = (dispatch, e) => {
     //this.setState({});
     var studentSubmit = {
@@ -14,11 +18,17 @@ class Student extends Component {
     dispatch({ type: "SUBMIT_YOKLAMA", payload: studentSubmit });
 
     console.log(document.forms);
+    this.setState({
+      isVisible: true,
+    });
+
+    //logout
   };
 
   render() {
     //const { title } = this.props;
-    const { loggedUserName } = this.props;
+    //const { loggedUserName } = this.props;
+    const { isVisible } = this.state;
     return (
       <UserConsumer>
         {(value) => {
@@ -44,17 +54,29 @@ class Student extends Component {
                       <input
                         type="button"
                         value="Kaydet"
+                        style={{
+                          backgroundColor: "rgb(1,210,142)",
+                          color: "white",
+                          border: "1px solid #00000",
+                          borderRadius: "5px",
+                          height: "50px",
+                          marginTop: "28px",
+                        }}
                         onClick={this.onSubmit1.bind(this, dispatch)}
                       />
                     </div>
                   </form>
 
-                  <h6 align="center" style={{ color: "Tomato" }}>
-                    Eşleşen aktif bir ders bulunamadı.
-                  </h6>
-                  <h6 align="center" style={{ color: "green" }}>
-                    Yoklama kaydınız alınmıştır.
-                  </h6>
+                  {isVisible ? (
+                    <div>
+                      <h6 align="center" style={{ color: "orange" }}>
+                        Yoklama kayıt talebiniz alınmıştır.
+                      </h6>
+                      {/* <h6 align="center" style={{ color: "black" }}>
+                        Ana sayfaya yönlendiriliyorsunuz...
+                      </h6> */}
+                    </div>
+                  ) : null}
                 </div>
               </div>
             </div>
