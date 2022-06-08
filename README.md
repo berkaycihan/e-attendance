@@ -1,4 +1,4 @@
-# Admin e-Attendance ReactJS
+# e-Attendance ReactJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - username : superuser
