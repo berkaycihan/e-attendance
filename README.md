@@ -13,7 +13,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Clone the repo
 2. Run `$ yarn` or `npm install`
 3. Run `npm install reactstrap`
-4. Run locally `$ yarn start` or `npm start`
+4. Run `npm install react-script`
+5. Run locally `$ yarn start` or `npm start`
 
 
 ## Available Scripts
