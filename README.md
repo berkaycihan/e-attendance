@@ -62,4 +62,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-[PROJECT PRESENTATION](https://github.com/berkaycihan/e-attendance/files/8868206/eyoklama_sunum_1191602801.1.pptx)
+[THE PROJECT PRESENTATION](https://github.com/berkaycihan/e-attendance/files/8868206/eyoklama_sunum_1191602801.1.pptx)
